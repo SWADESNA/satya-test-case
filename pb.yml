@@ -2,7 +2,7 @@
 - name: Hello World Sample
   hosts: localhost
   vars_files:
-    - vars-dir/vars.yml
+    - ../vars.yml
   tasks:
     - name: Hello Message
       debug:
